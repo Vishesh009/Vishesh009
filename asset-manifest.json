@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.85628fe3.css",
+    "main.js": "/react-gh-pages/static/js/main.4dd96323.js",
+    "static/media/bg-light.jpg": "/react-gh-pages/static/media/bg-light.c04759a4f70376494b75.jpg",
+    "static/media/bg-dark.jpg": "/react-gh-pages/static/media/bg-dark.467ad52d6c03873689c2.jpg",
+    "static/media/LPS.jpg": "/react-gh-pages/static/media/LPS.6f6c688a1de56b5d1e7b.jpg",
+    "static/media/cpp.png": "/react-gh-pages/static/media/cpp.a4d24ea5aab1f0fecef4.png",
+    "static/media/profile-1.jpeg": "/react-gh-pages/static/media/profile-1.4a26c673e85496cfc9c5.jpeg",
+    "static/media/IC-KIET.jpg": "/react-gh-pages/static/media/IC-KIET.ec0f4f582af0e65163a8.jpg",
+    "static/media/mongodb.png": "/react-gh-pages/static/media/mongodb.d420aa02330096942f4e.png",
+    "static/media/python.png": "/react-gh-pages/static/media/python.7f4ab9230c894b8d486d.png",
+    "static/media/java.png": "/react-gh-pages/static/media/java.571b0a15ae3ed305b1a5.png",
+    "static/media/Resume-Vishesh (1).pdf": "/react-gh-pages/static/media/Resume-Vishesh (1).43c425f01bea010c8008.pdf",
+    "static/media/js.png": "/react-gh-pages/static/media/js.b66d964741555c0daebd.png",
+    "static/media/css.png": "/react-gh-pages/static/media/css.17b8d4e390113694de87.png",
+    "static/media/bootstrap.png": "/react-gh-pages/static/media/bootstrap.600c38fe33f2fb76c553.png",
+    "static/media/node.png": "/react-gh-pages/static/media/node.722e1894e1648859f1ab.png",
+    "static/media/kiet.jpg": "/react-gh-pages/static/media/kiet.cb9012dcfab5da569feb.jpg",
+    "static/media/react.png": "/react-gh-pages/static/media/react.7b8bd529b066334aee90.png",
+    "static/media/express.png": "/react-gh-pages/static/media/express.e4c63d89f64d18038731.png",
+    "static/media/ccc.png": "/react-gh-pages/static/media/ccc.e7021c1a82c828bf67ba.png",
+    "static/media/html.png": "/react-gh-pages/static/media/html.d84d01eb65ed8bb7f5b4.png",
+    "static/media/cognizant-logo.webp": "/react-gh-pages/static/media/cognizant-logo.b4fb75e7d9e044f37ec8.webp",
+    "index.html": "/react-gh-pages/index.html",
+    "main.85628fe3.css.map": "/react-gh-pages/static/css/main.85628fe3.css.map",
+    "main.4dd96323.js.map": "/react-gh-pages/static/js/main.4dd96323.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85628fe3.css",
+    "static/js/main.4dd96323.js"
+  ]
+}
