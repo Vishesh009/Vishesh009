@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Vishesh009/static/css/main.f32c7028.css",
-    "main.js": "/Vishesh009/static/js/main.1921ede8.js",
+    "main.js": "/Vishesh009/static/js/main.cd3abcb4.js",
     "static/media/bg-light.jpg": "/Vishesh009/static/media/bg-light.c04759a4f70376494b75.jpg",
     "static/media/bg-dark.jpg": "/Vishesh009/static/media/bg-dark.467ad52d6c03873689c2.jpg",
-    "static/media/Resume-Vishesh (1).pdf": "/Vishesh009/static/media/Resume-Vishesh (1).0ec9fa44eaab1b05f622.pdf",
     "static/media/LPS.jpg": "/Vishesh009/static/media/LPS.6f6c688a1de56b5d1e7b.jpg",
     "static/media/cpp.png": "/Vishesh009/static/media/cpp.a4d24ea5aab1f0fecef4.png",
+    "static/media/VisheshResume2024.pdf": "/Vishesh009/static/media/VisheshResume2024.705ec321d090e42e6e84.pdf",
     "static/media/profile-1.jpeg": "/Vishesh009/static/media/profile-1.4a26c673e85496cfc9c5.jpeg",
     "static/media/IC-KIET.jpg": "/Vishesh009/static/media/IC-KIET.ec0f4f582af0e65163a8.jpg",
     "static/media/mongodb.png": "/Vishesh009/static/media/mongodb.d420aa02330096942f4e.png",
@@ -24,10 +24,10 @@
     "static/media/cognizant-logo.webp": "/Vishesh009/static/media/cognizant-logo.b4fb75e7d9e044f37ec8.webp",
     "index.html": "/Vishesh009/index.html",
     "main.f32c7028.css.map": "/Vishesh009/static/css/main.f32c7028.css.map",
-    "main.1921ede8.js.map": "/Vishesh009/static/js/main.1921ede8.js.map"
+    "main.cd3abcb4.js.map": "/Vishesh009/static/js/main.cd3abcb4.js.map"
   },
   "entrypoints": [
     "static/css/main.f32c7028.css",
-    "static/js/main.1921ede8.js"
+    "static/js/main.cd3abcb4.js"
   ]
 }
