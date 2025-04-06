@@ -9,7 +9,7 @@
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url ./",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages -r https://github.com/Vishesh009/vishesh009.git"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
