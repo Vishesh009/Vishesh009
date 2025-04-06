@@ -11,7 +11,7 @@ const projects = [
     date: "October 2024",
     description:
       "My Whack-a-Mole game is a modern twist on the classic arcade favorite, built entirely with React, JavaScript, and CSS. This interactive web app brings nostalgic fun to your browser with smooth animations, score tracking, and dynamic gameplay.",
-    tags: ["Typescript", "TailwindCSS", "React", "JavaScript"],
+    tags: ["React", "Typescript", "TailwindCSS", "JavaScript"],
     buttons: [
       {
         label: "Website",
