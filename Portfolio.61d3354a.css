@@ -899,10 +899,6 @@
     }
   }
 
-  .bg-blue-600 {
-    background-color: var(--color-blue-600);
-  }
-
   .bg-gray-50 {
     background-color: var(--color-gray-50);
   }
