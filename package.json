@@ -8,11 +8,11 @@
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url ./",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages"
+    "deploy": "gh-pages -d dist -b gh-pages -r https://github.com/Vishesh009/vishesh009.git"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Vishesh009/vishesh009.git"
+    "url": "git+ssh://git@github.com/Vishesh009/PORTFOLIO.git"
   },
   "author": "Vishesh",
   "homepage": "https://vishesh009.github.io/vishesh009",
