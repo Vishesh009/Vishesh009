@@ -4,82 +4,85 @@ import { useEffect, useRef } from "react";
 
 const projects = [
   {
-    title: "Coudo AI",
-    link: "https://coudo.ai",
-    image: "https://www.coudo.ai/assets/og-images/og-landing-page.png",
+    title: "Whack-A-Mole",
+    link: "https://vishesh009.github.io/Whack-A-Mole/",
+    image:
+      "https://images.squarespace-cdn.com/content/v1/510feb8ce4b0c0190c38feeb/1591818308738-M5P09IFM2YZKJH7GP49M/Whack-a-mole.png",
     date: "October 2024",
     description:
-      "Coudo AI is a platform that allows software developers to learn Low Level Design by solving real world problems. Developers get instant AI driven feedback on their code and can learn by using AI follow-up questions.",
-    tags: [
-      "Golang",
-      "Next.js",
-      "Typescript",
-      "TailwindCSS",
-      "PostgreSQL",
-      "AWS",
+      "My Whack-a-Mole game is a modern twist on the classic arcade favorite, built entirely with React, JavaScript, and CSS. This interactive web app brings nostalgic fun to your browser with smooth animations, score tracking, and dynamic gameplay.",
+    tags: ["Typescript", "TailwindCSS", "React", "JavaScript"],
+    buttons: [
+      {
+        label: "Website",
+        icon: "globe",
+        link: "https://vishesh009.github.io/Whack-A-Mole/",
+      },
     ],
-    buttons: [{ label: "Website", icon: "globe", link: "https://coudo.ai" }],
   },
   {
-    title: "Dank AI",
-    link: "https://dankai.shivam.fyi",
-    video:
-      "https://ibivsgivwzqypvfsghwc.supabase.co/storage/v1/object/public/models/BeDank_dax.mp4?t=2024-07-11T12%3A29%3A47.160Z",
+    title: "Countdown-Clock",
+    link: "https://vishesh009.github.io/Countdown-Clock/",
+    image: "https://c.tadst.com/gfx/1200x630/fb-stopwatch2.png?1",
     date: "Jun 2024",
     description:
-      "Dank AI is a browser extension that utilises Chrome's Web AI on X.com (Twitter) to generate locally run AI-powered witty or humorous replies to tweets. This tool leverages advanced AI to enhance user engagement and make social media interactions more entertaining.",
-    tags: ["Web AI", "Typescript", "TailwindCSS", "Shadcn UI", "Magic UI"],
-    buttons: [
-      { label: "Website", icon: "globe", link: "https://dankai.shivam.fyi" },
-      {
-        label: "Extension",
-        icon: "chrome",
-        link: "https://chromewebstore.google.com/detail/dank-ai/kkmmfcnailgcdgmkchnehgoknlicobie",
-      },
-      {
-        label: "Source",
-        icon: "github",
-        link: "https://shivam.fyi/github/bedank",
-      },
-    ],
-  },
-  {
-    title: "3D Cup Designer",
-    link: "https://brush.shivam.fyi",
-    video:
-      "https://ibivsgivwzqypvfsghwc.supabase.co/storage/v1/object/public/models/brush3d.mp4?t=2024-07-12T09%3A11%3A04.224Z",
-    date: "Apr 2024",
-    description:
-      "3D Cup Designer is a platform that allows users to design their paper cups online and visualize them in real-time 3D. The platform enhances user experience by providing an interactive way to see how the designs will look when printed and manufactured.",
-    tags: [
-      "Three.js",
-      "React",
-      "Blender",
-      "TailwindCSS",
-      "Fabric.js",
-      "PostgreSQL",
-    ],
-    buttons: [
-      { label: "Website", icon: "globe", link: "https://brush.shivam.fyi" },
-    ],
-  },
-  {
-    title: "Bulk WhatsApp Message Sender",
-    link: "https://github.com/Shivamc489/bulk-whatsapp-message",
-    video:
-      "https://ibivsgivwzqypvfsghwc.supabase.co/storage/v1/object/public/models/Bulk_Whatsapp_Sender.mp4?t=2024-07-13T17%3A15%3A04.916Z",
-    date: "July 2024",
-    description:
-      "A tool for sending bulk WhatsApp messages using a CSV file containing phone numbers and messages. It automates WhatsApp Web using Selenium, allowing users to send text messages and optionally attach images to multiple contacts efficiently.",
-    tags: ["Python", "Selenium", "CSV", "ChromeDriver"],
+      " Countdown Clock is a versatile web application built with React and TypeScript, designed for precision timing with elegant visuals. Whether tracking deadlines, workouts, or special events, this tool combines utility with beautiful design.",
+    tags: ["React", "Typescript", "TailwindCSS", "JavaScript"],
     buttons: [
       {
-        label: "GitHub",
-        icon: "github",
-        link: "https://github.com/Shivamc489/bulk-whatsapp-message",
+        label: "Website",
+        icon: "globe",
+        link: "https://vishesh009.github.io/Countdown-Clock/",
       },
+      // {
+      //   label: "Extension",
+      //   icon: "chrome",
+      //   link: "https://chromewebstore.google.com/detail/dank-ai/kkmmfcnailgcdgmkchnehgoknlicobie",
+      // },
+      // {
+      //   label: "Source",
+      //   icon: "github",
+      //   link: "https://shivam.fyi/github/bedank",
+      // },
     ],
   },
+  // {
+  //   title: "3D Cup Designer",
+  //   link: "https://brush.shivam.fyi",
+  //   video:
+  //     "https://ibivsgivwzqypvfsghwc.supabase.co/storage/v1/object/public/models/brush3d.mp4?t=2024-07-12T09%3A11%3A04.224Z",
+  //   date: "Apr 2024",
+  //   description:
+  //     "3D Cup Designer is a platform that allows users to design their paper cups online and visualize them in real-time 3D. The platform enhances user experience by providing an interactive way to see how the designs will look when printed and manufactured.",
+  //   tags: [
+  //     "Three.js",
+  //     "React",
+  //     "Blender",
+  //     "TailwindCSS",
+  //     "Fabric.js",
+  //     "PostgreSQL",
+  //   ],
+  //   buttons: [
+  //     { label: "Website", icon: "globe", link: "https://brush.shivam.fyi" },
+  //   ],
+  // },
+  // {
+  //   title: "Bulk WhatsApp Message Sender",
+  //   link: "https://github.com/Shivamc489/bulk-whatsapp-message",
+  //   video:
+  //     "https://ibivsgivwzqypvfsghwc.supabase.co/storage/v1/object/public/models/Bulk_Whatsapp_Sender.mp4?t=2024-07-13T17%3A15%3A04.916Z",
+  //   date: "July 2024",
+  //   description:
+  //     "A tool for sending bulk WhatsApp messages using a CSV file containing phone numbers and messages. It automates WhatsApp Web using Selenium, allowing users to send text messages and optionally attach images to multiple contacts efficiently.",
+  //   tags: ["Python", "Selenium", "CSV", "ChromeDriver"],
+  //   buttons: [
+  //     {
+  //       label: "GitHub",
+  //       icon: "github",
+  //       link: "https://github.com/Shivamc489/bulk-whatsapp-message",
+  //     },
+  //   ],
+  // },
 ];
 
 const Icon = ({ name, className }) => {
@@ -228,7 +231,7 @@ export default function Projects() {
                   {project.tags.map((tag, tagIndex) => (
                     <div
                       key={tagIndex}
-                      className="inline-flex items-center rounded-md border border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600 px-2 py-0.5 text-xs font-medium transition-colors"
+                      className="inline-flex items-center rounded-md border  border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600 px-2 py-0.5 text-xs font-medium transition-colors"
                     >
                       {tag}
                     </div>
@@ -242,7 +245,7 @@ export default function Projects() {
                       href={button.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center rounded-md border border-transparent bg-blue-600 text-white hover:bg-blue-700 px-3 py-1 text-xs font-medium shadow-sm transition-colors gap-2"
+                      className="inline-flex items-center rounded-md border border-transparent bg-gray-900 text-white hover:bg-blue-700 px-3 py-1 text-xs font-medium shadow-sm transition-colors gap-2"
                     >
                       <Icon name={button.icon} className="size-3" />
                       {button.label}

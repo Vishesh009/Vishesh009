@@ -6,14 +6,14 @@ const educationData = [
   {
     institution: "Krishna Institute of Engineering and Technology",
     url: "https://www.kiet.edu/",
-    logo: "/kiet.png",
+    logo: "https://www.pngfind.com/pngs/m/445-4455591_kiet-group-of-institutions-hd-png-download.png",
     degree: "B.Tech in Information Technology",
     period: "2017 - 2021",
   },
   {
     institution: "Lucknow Public School",
     url: "https://jankipuram.lpsc.co.in/",
-    logo: "../img/lps.png",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MIOryxdAmpSfH_nY9u3BINkpBnhSOAq2Kg&s",
     degree: "XII ISC/ICSE",
     period: "2005 - 2017",
   },

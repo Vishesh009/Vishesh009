@@ -53,7 +53,7 @@ const Header = () => {
         {/* Navigation Icons */}
         {[
           {
-            href: "/",
+            href: "#",
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -73,8 +73,8 @@ const Header = () => {
             ),
           },
           {
-            name: "Blog",
-            href: "/blog",
+            name: "About",
+            href: "#about",
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"

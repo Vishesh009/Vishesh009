@@ -5,8 +5,8 @@ import { useEffect, useRef } from "react";
 const workExperiences = [
   {
     company: "Cognizant",
-    url: "https://procol.io",
-    logo: { cognizant },
+    url: "https://cognizant.com",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd32c-5m8mp3-lhf_EDX0EiFRPYr3j3kLRjw&s",
     role: "Software Engineer",
     period: "August 2021 - Present",
     description:
