@@ -699,27 +699,27 @@ const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6 __variable_d65c78",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _heroDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 20,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _heroDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 21,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _workExperienceDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _workExperienceDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 23,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 24,
                 columnNumber: 7
@@ -16202,7 +16202,7 @@ const Header = ()=>{
     const iconContainerClasses = `flex aspect-square cursor-pointer items-center justify-center rounded-full transition-all duration-300 ${isHovering ? "mx-2" : "mx-1"}`;
     const iconClasses = "transition-all duration-300 hover:scale-110";
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14",
+        className: "pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14 ",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "fixed bottom-0 inset-x-0 h-16 w-full bg-background to-transparent backdrop-blur-lg [-webkit-mask-image:linear-gradient(to_top,black,transparent)] dark:bg-background"
@@ -16405,7 +16405,7 @@ const Header = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         "data-orientation": "vertical",
                         role: "none",
-                        className: "shrink-0 bg-gray-200 dark:bg-gray-700 w-[1px] h-8 mx-1"
+                        className: "shrink-0 bg-gray-300 dark:bg-gray-00 w-[1px] h-8 mx-1"
                     }, void 0, false, {
                         fileName: "components/Header.js",
                         lineNumber: 152,
@@ -26713,7 +26713,7 @@ const workExperiences = [
         logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd32c-5m8mp3-lhf_EDX0EiFRPYr3j3kLRjw&s",
         role: "Software Engineer",
         period: "August 2021 - Present",
-        description: "Part of the lighthouse team responsible for key architectural decisions and the development of core frameworks. Played a significant role in reducing cloud costs by optimizing server configurations, resulting in a 60% cost reduction. Worked on enterprise client projects, enhancing modules like eRFX, Awarding, and Approvals, which are expected to increase ARPA by 60%. Created the core framework for storing and accessing data as forms and pages, inspired by Notion, which now interacts with all other microservices and verticals at Procol. Previously, wrote the Lightspeed micro-service handling WebSockets across the platform, migrated the core codebase from Rails 5.1 to Rails 7, and scaled the core Auction product to support 100k entities."
+        description: "Part of the BFS team responsible for key architectural decisions and the development of core frameworks. Created the core framework for storing and accessing data as forms and pages, inspired by Notion, which now interacts with all other microservices and verticals. Previously, wrote the Lightspeed micro-service handling WebSockets across the platform,and scaled the core product to support 100k entities."
     }
 ];
 function WorkExperience() {
@@ -27277,9 +27277,9 @@ const projects = [
         date: "October 2024",
         description: "My Whack-a-Mole game is a modern twist on the classic arcade favorite, built entirely with React, JavaScript, and CSS. This interactive web app brings nostalgic fun to your browser with smooth animations, score tracking, and dynamic gameplay.",
         tags: [
+            "React",
             "Typescript",
             "TailwindCSS",
-            "React",
             "JavaScript"
         ],
         buttons: [
