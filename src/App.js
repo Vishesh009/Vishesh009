@@ -17,11 +17,11 @@ const App = () => {
         innovative solutions. Active on social media, sharing insights and
         projects.
       </h1> */}
+      <Header />
       <Hero />
       <About />
       <WorkExperience />
       <Education />
-      <Header />
       <Skills />
       <Projects />
       <Contact />

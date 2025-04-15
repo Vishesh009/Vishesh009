@@ -10,7 +10,7 @@ const workExperiences = [
     role: "Software Engineer",
     period: "August 2021 - Present",
     description:
-      "Part of the lighthouse team responsible for key architectural decisions and the development of core frameworks. Played a significant role in reducing cloud costs by optimizing server configurations, resulting in a 60% cost reduction. Worked on enterprise client projects, enhancing modules like eRFX, Awarding, and Approvals, which are expected to increase ARPA by 60%. Created the core framework for storing and accessing data as forms and pages, inspired by Notion, which now interacts with all other microservices and verticals at Procol. Previously, wrote the Lightspeed micro-service handling WebSockets across the platform, migrated the core codebase from Rails 5.1 to Rails 7, and scaled the core Auction product to support 100k entities.",
+      "Part of the BFS team responsible for key architectural decisions and the development of core frameworks. Created the core framework for storing and accessing data as forms and pages, inspired by Notion, which now interacts with all other microservices and verticals. Previously, wrote the Lightspeed micro-service handling WebSockets across the platform,and scaled the core product to support 100k entities.",
   },
 ];
 

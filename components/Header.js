@@ -40,7 +40,7 @@ const Header = () => {
   const iconClasses = "transition-all duration-300 hover:scale-110";
 
   return (
-    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14">
+    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14 ">
       {/* Background blur */}
       <div className="fixed bottom-0 inset-x-0 h-16 w-full bg-background to-transparent backdrop-blur-lg [-webkit-mask-image:linear-gradient(to_top,black,transparent)] dark:bg-background"></div>
 
@@ -152,7 +152,7 @@ const Header = () => {
         <div
           data-orientation="vertical"
           role="none"
-          className="shrink-0 bg-gray-200 dark:bg-gray-700 w-[1px] h-8 mx-1"
+          className="shrink-0 bg-gray-300 dark:bg-gray-00 w-[1px] h-8 mx-1"
         ></div>
 
         {/* Social Icons */}
