@@ -34,13 +34,13 @@ const Header = () => {
   };
 
   const iconContainerClasses = `flex aspect-square cursor-pointer items-center justify-center rounded-full transition-all duration-300 ${
-    isHovering ? "mx-2" : "mx-1"
+    isHovering ? "mx-1" : "mx-0.5"
   }`;
 
   const iconClasses = "transition-all duration-300 hover:scale-110";
 
   return (
-    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14 ">
+    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-10 ">
       {/* Background blur */}
       <div className="fixed bottom-0 inset-x-0 h-16 w-full bg-background to-transparent backdrop-blur-lg [-webkit-mask-image:linear-gradient(to_top,black,transparent)] dark:bg-background"></div>
 
@@ -140,7 +140,7 @@ const Header = () => {
             className={`${iconContainerClasses} hover:bg-gray-100 dark:hover:bg-gray-800`}
           >
             <a
-              className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 rounded-full size-12"
+              className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 rounded-full size-8"
               href={item.href}
             >
               <div className={iconClasses}>{item.icon}</div>
@@ -209,7 +209,7 @@ const Header = () => {
             className={`${iconContainerClasses} hover:bg-gray-100 dark:hover:bg-gray-800`}
           >
             <a
-              className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 rounded-full size-12"
+              className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 rounded-full size-8"
               href={item.href}
               target="_blank"
               rel="noopener noreferrer"
@@ -233,7 +233,7 @@ const Header = () => {
           <div className={iconClasses}>
             {/* Theme toggle icons */}
             {/* Theme toggle */}
-            <div className="flex aspect-square cursor-pointer items-center justify-center rounded-full w-10">
+            <div className="flex aspect-square cursor-pointer items-center justify-center rounded-full w-8">
               <button
                 onClick={toggleDarkMode}
                 className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 w-9 rounded-full px-2"
