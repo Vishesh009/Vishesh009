@@ -8,13 +8,13 @@ I'm Vishesh, a passionate software developer with three years of experience. I s
 
 ## Skills 🔥
 
-##### Languages: JavaScript, Python, TypeScript, HTML, CSS
+##### Languages: ###### JavaScript, Python, TypeScript, HTML, CSS
 
-##### Frameworks: React, Node.js, Express, Django
+##### Frameworks: ###### React, Node.js, Express, Django
 
-##### Tools: Git, Docker, PostgreSQL, MongoDB
+##### Tools: ###### Git, Docker, PostgreSQL, MongoDB
 
-##### Other: Agile methodologies, RESTful APIs, problem-solving, and code optimization
+##### Other: ###### Agile methodologies, RESTful APIs, problem-solving, and code optimization
 
 ## Projects 🌟
 
